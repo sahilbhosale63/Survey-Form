@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #d4e157;
+    font-family: 'Signika', sans-serif;
+}
+main{
+    margin: 30px;
+}
+
+h1{
+    padding: 5px;
+}
+
+p{
+    margin-bottom: 20px; 
+}
+
+#title, #description{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background: #e6ee9c;
+    
+    border-radius: 30px;
+    padding: 50px;
+}
+
+div{
+    padding: 8px 0px;
+    margin: auto;
+}
+
+label{
+    font-size: 1.2em;
+    padding-right: 10px;
+}
+
+#name, #email, #number{
+    width: 200px;
+    height: 25px;
+}
+
+#submit{
+    width: 80px;
+    height: 40px;
+    margin: auto;
+    background: #ff9800;
+    color: #fff;
+    border-style: none;
+    border-radius: 5px;
+}
+
+#comment-label{
+    vertical-align: top;
+}
+
+#comments{
+    height: 60px;
+}
+
+.box{
+    float: right;
+}
+
+.space{
+    line-height: 25px;
+}

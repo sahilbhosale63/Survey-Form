@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Let us know how we can improve freeCodeCamp</p>
+
+        <form action="" id="survey-form">
+            <div>
+                <label id="name-label" for="name">Name:</label>
+                <input id="name" type="text" placeholder="Enter Name" required>
+            </div>
+
+            <div>
+                <label id="email-label" for="email">Email:</label>
+                <input id="email" type="email" placeholder="Enter Email" required>
+            </div>
+
+            <div>
+                <label id="number-label" for="number">Age:</label>
+                <input id="number" type="number" placeholder="Enter Age" min="1" max="120" required>
+            </div>
+
+            <div>
+            <label for="dropdown">Select Course:</label>
+            <select name="dropdown" id="dropdown">
+                <option disabled value>Select Course</option>
+                <option value="computer">Computer Engineering</option>
+                <option value="civil">Civil Engineering</option>
+                <option value="mechanical">Mechanical Engineering</option>
+                <option value="electrical">Electrical Engineering</option>
+                <option value="it">IT Engineering</option>
+            </select>
+            </div>
+
+            <div class="space">
+            <label for="select-radio">How you will review our site?</label><br>
+            <input type="radio" name="select-radio" value="radio"><label for="radio">5</label><br>
+            <input type="radio" name="select-radio" value="radio"><label for="radio">4</label><br>
+            <input type="radio" name="select-radio" value="radio"><label for="radio">3</label><br>
+            <input type="radio" name="select-radio" value="radio"><label for="radio">2</label><br>
+            <input type="radio" name="select-radio" value="radio"><label for="radio">1</label>
+            </div>
+
+            <div class="space">
+            <label id="check-label" for="checkbox">Interesting Field:</label><br>
+            <input type="checkbox" value="field-1"><label for="checkbox">Frontend Web Development</label><br>
+            <input type="checkbox" value="field-2"><label for="checkbox">Backend Web Development</label><br>
+            <input type="checkbox" value="field-3"><label for="checkbox">Machine Learning</label><br>
+            <input type="checkbox" value="field-4"><label for="checkbox">Data Visualization</label><br>
+            <input type="checkbox" value="field-5"><label for="checkbox">Open Source</label>
+            </div>
+
+            <div>
+            <label id="comment-label" for="comments">Comments:</label>
+            <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+            </div>
+
+            <input id="submit" type="submit">
+
+        </form>
+    </main>
+    <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+</body>
+</html>
